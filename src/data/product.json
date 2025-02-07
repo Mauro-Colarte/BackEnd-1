@@ -1,0 +1,12 @@
+[
+    {
+        "id" : 1,
+        "title" :  "departament",
+        "description" : "Normal room",
+        "code" : "pgn232",
+        "price" : 120.000,
+        "status" : true,
+        "category" : "modern home",
+        "thumbnail" :""
+    }
+]
