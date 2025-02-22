@@ -6,7 +6,7 @@ class productManager{
 
     }
 
-    //getproduct
+    //*getproduct
 getProducts = async () => {
     try {
         //manera de leer el contenido de nuestro archivos y guardarlo
@@ -14,13 +14,12 @@ getProducts = async () => {
         const data = JSON.parse(fileData);
         return data;
     } catch (error) {
-        console.error("Error al leer el archivo", error);
-        return [];
+        throw new Error(`Error al leer el archivo de productos: ${error.message}`);
     
 }
-    //getproductByID
+    //*getproductByID
 
-    //addProduct
+    //*addProduct
 
     //setProductById
 
